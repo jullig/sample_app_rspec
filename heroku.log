@@ -1,0 +1,20 @@
+2013-06-20T20:52:45.384087+00:00 heroku[api]: Enable Logplex by jullig@acm.org
+2013-06-20T20:52:45.413864+00:00 heroku[api]: Release v2 created by jullig@acm.org
+2013-06-20T21:04:07.623040+00:00 heroku[api]: Scale to web=1 by jullig@acm.org
+2013-06-20T21:04:08.181401+00:00 heroku[api]: Attach HEROKU_POSTGRESQL_COBALT resource by jullig@acm.org
+2013-06-20T21:04:08.207563+00:00 heroku[api]: Release v3 created by jullig@acm.org
+2013-06-20T21:04:08.261342+00:00 heroku[api]: Add DATABASE_URL config by jullig@acm.org
+2013-06-20T21:04:08.290533+00:00 heroku[api]: Release v4 created by jullig@acm.org
+2013-06-20T21:04:08.368175+00:00 heroku[api]: Deploy 538aa47 by jullig@acm.org
+2013-06-20T21:04:08.400651+00:00 heroku[api]: Release v5 created by jullig@acm.org
+2013-06-20T21:04:08.455189+00:00 heroku[api]: Deploy 538aa47 by jullig@acm.org
+2013-06-20T21:04:13.395666+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 22216`
+2013-06-20T21:04:16.448143+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-06-20T21:04:16.448280+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-06-20T21:04:19.093971+00:00 app[web.1]: [2013-06-20 21:04:19] INFO  WEBrick::HTTPServer#start: pid=2 port=22216
+2013-06-20T21:04:19.093264+00:00 app[web.1]: [2013-06-20 21:04:19] INFO  WEBrick 1.3.1
+2013-06-20T21:04:19.093447+00:00 app[web.1]: [2013-06-20 21:04:19] INFO  ruby 2.0.0 (2013-05-14) [x86_64-linux]
+2013-06-20T21:04:19.223034+00:00 heroku[web.1]: State changed from starting to up
+2013-06-20T21:17:59.793581+00:00 heroku[router]: at=info method=GET path=/ host=rjrtsar.herokuapp.com fwd="67.180.132.255" dyno=web.1 connect=2ms service=47ms status=200 bytes=5906
+2013-06-20T21:17:59.982908+00:00 heroku[router]: at=info method=GET path=/assets/rails.png host=rjrtsar.herokuapp.com fwd="67.180.132.255" dyno=web.1 connect=1ms service=58ms status=200 bytes=6646
+2013-06-20T21:18:00.180304+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=rjrtsar.herokuapp.com fwd="67.180.132.255" dyno=web.1 connect=1ms service=30ms status=200 bytes=0

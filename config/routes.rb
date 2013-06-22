@@ -1,5 +1,6 @@
 SampleAppRspec::Application.routes.draw do
   # keep this for now; needed for 'users/new' route to work (???)
+  # cf. Tutorial Listing 5.32
   get "users/new"
 
   # get "static_pages/home"

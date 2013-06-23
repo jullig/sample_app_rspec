@@ -31,10 +31,12 @@ end
 
 gem 'jquery-rails', '3.0.1'
 
-# awaiting resolution Capybara - Nokogiri x64 compilation
-# group :test do
-#  gem 'capybara' '2.1.0'
-# end
+
+group :test do
+  # awaiting resolution Capybara - Nokogiri x64 compilation
+  # gem 'capybara' '2.1.0'
+  gem 'factory_girl_rails', '4.1.0'
+end
 
 group :production do
   gem 'pg', '0.12.2'

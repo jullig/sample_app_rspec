@@ -1,12 +1,14 @@
 SampleAppRspec::Application.routes.draw do
-  # keep this for now; needed for 'users/new' route to work (???)
+  # keep this for now; needed for 'users/new' route to work (7.3)
   # cf. Tutorial Listing 5.32
-  get "users/new"
+  # get "users/new"
 
   # get "static_pages/home"
   # get "static_pages/help"
   # get "static_pages/about"
   # get "static_pages/contact"
+
+  resources :users
 
   root to: 'static_pages#home'
 

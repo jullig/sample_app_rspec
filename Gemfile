@@ -34,8 +34,11 @@ gem 'jquery-rails', '3.0.1'
 
 group :test do
   # awaiting resolution Capybara - Nokogiri x64 compilation
-  # gem 'capybara' '2.1.0'
+  # Capybara is listed in Gemfile.lock, tentatively exposing in Gemfile
+  gem 'capybara' '2.1.0'
   gem 'factory_girl_rails', '4.1.0'
+  gem 'cucumber-rails', '1.2.1', :require => false
+  gem 'database_cleaner', '0.7.0'
 end
 
 group :production do
